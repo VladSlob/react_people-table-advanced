@@ -22,11 +22,7 @@ export const Navbar = () => {
         <div className="navbar-brand">
           <NavLink to="/" className={isNavActive}>
             Home
-          </NavLink>
 
-          <NavLink
-            to={{ pathname: 'people', search: searchParams.toString() }}
-            className={isNavActive}
           >
             People
           </NavLink>
